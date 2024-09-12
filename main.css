@@ -1,0 +1,110 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Castoro", serif;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.wrap {
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.cover {
+  padding-top: 160px;
+}
+.cover .title {
+  font-size: 128px;
+  letter-spacing: 0.12em;
+}
+.cover .cover-pic {
+  text-align: center;
+}
+.cover .sub {
+  text-align: right;
+}
+
+.intro-bg {
+  background-color: #EFEFEF;
+}
+
+.intro-text {
+  width: 50%;
+  margin-left: auto;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 12px;
+  font-size: 32px;
+}
+
+.info {
+  margin-top: 80px;
+}
+
+.info-item {
+  width: 50%;
+}
+.info-item .item-title {
+  font-size: 40px;
+  color: #AE0000;
+  border-bottom: 3px solid #AE0000;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+.info-item .info-content {
+  display: grid;
+  gap: 8px;
+  margin: 8px 0;
+  font-size: 24px;
+}
+.info-item .info-content .since {
+  display: block;
+  font-size: 20px;
+  font-style: italic;
+  color: #949494;
+}
+.info-item .info-content a {
+  text-decoration: none;
+  color: #000;
+}
+.info-item .info-content a:hover {
+  color: #949494;
+}
+.info-item .info-exper {
+  gap: 16px;
+}
+.info-item .info-awards {
+  gap: 12px;
+}
+
+.footer-bg {
+  background-color: #000;
+  margin-top: 160px;
+}
+.footer-bg .social {
+  display: flex;
+  justify-content: center;
+  padding: 44px 0;
+}
+.footer-bg .icon {
+  padding: 20px;
+}
+.footer-bg .icon img {
+  transform: scale(1, 1);
+  transition: 0.3s;
+}
+.footer-bg .icon img:hover {
+  transform: scale(1.2, 1.2);
+}/*# sourceMappingURL=main.css.map */

@@ -43,10 +43,10 @@ img {
 .intro-text {
   width: 50%;
   margin-left: auto;
+  font-size: 32px;
   padding-top: 48px;
   padding-bottom: 48px;
   padding-left: 12px;
-  font-size: 32px;
 }
 
 .info {
